@@ -132,7 +132,7 @@ void enqueueLineFromCallback(const char *line) {
 
 // parse probe request, prepare CSV line, and queue
 void snifferCallback(void* buf, wifi_promiscuous_pkt_type_t type) {
-  if (type != WIFI_PKT_MGMT) return; // if not the right type of packet
+  if (type != WIFI_PKT_MGMT) return; // if not the right type of packet return
   const wifi_promiscuous_pkt_t *ppkt = (wifi_promiscuous_pkt_t*) buf;
   const uint8_t *payload = ppkt->payload;
   int len = ppkt->rx_ctrl.sig_len;
