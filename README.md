@@ -28,3 +28,5 @@ Each project has its **own folder** and a dedicated README explaining its purpos
 ## Disclaimer
 - These projects are intended for educational and personal learning purposes.
 - Always follow ethical and legal guidelines when working with any security-related code or hardware.
+- These are not intended to be used in any malicious way.
+- Gain consent before use from anyone these could possibly affect.
