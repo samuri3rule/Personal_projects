@@ -1,4 +1,4 @@
-# ESP32 Wi-Fi Pinapple
+# ESP32 Wi-Fi Pineapple
 
 ## 1. Overview
 An ESP32 project that creates a Wi-Fi access point with a captive portal login page. It records demo input from connected clients, including the clients IP, email, password and timestamp, and saves it in the SPIFFS as a CSV which can be retrieved later from a web browser via an admin endpoint. Once someone has input their test data once it bans their IP and gives them some fake error message as an excuse. If they try to connect again they are told they are banned for "possible malicious behavior".
