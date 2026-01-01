@@ -26,6 +26,11 @@ Each project has its **own folder** and a dedicated README explaining its purpos
 - Showcase applied learning in cybersecurity and embedded systems.
 - Provide clear, documented, and reproducible projects for personal and educational reference.
 
+## Other Projects
+Links to other projects I have worked on
+- https://mvxpng.github.io/mvxpng/
+- https://github.com/r-fairhurst/MeetnSleep
+
 ## Disclaimer
 - These projects are intended for educational and personal learning purposes.
 - Always follow ethical and legal guidelines when working with any security-related code or hardware.
