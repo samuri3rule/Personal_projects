@@ -28,8 +28,10 @@ Each project has its **own folder** and a dedicated README explaining its purpos
 
 ## Other Projects
 Links to other projects I have worked on
-- https://mvxpng.github.io/mvxpng/
-- https://github.com/r-fairhurst/MeetnSleep
+- Air-gapped Malware Analysis Sandbox
+  - https://mvxpng.github.io/mvxpng/
+- Minute-Meet The Automatic Meeting Summarizer
+  - https://github.com/r-fairhurst/MeetnSleep
 
 ## Disclaimer
 - These projects are intended for educational and personal learning purposes.
