@@ -13,7 +13,7 @@ Each project has its **own folder** and a dedicated README explaining its purpos
 
 ## Repository Structure
 - `WIFI_Probe_Sniffer/` – Contains code and README for my Wi-Fi probe sniffer project.
-- `WIFI Pineapple/` – Contains code and README for my Wi-Fi pineapple project.
+- `WIFI_Pineapple/` – Contains code and README for my Wi-Fi pineapple project.
 - `README.md` – This main repository overview (This Document).
 
 ## How to Use This Repo
