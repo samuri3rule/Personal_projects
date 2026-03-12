@@ -7,7 +7,6 @@ Paxxel is a Python-based packet sniffing and network analysis tool built using *
 
 **Disclaimer:** For educational and research use only. Packet sniffing and traffic manipulation on networks without permission may be illegal. **Do not use this tool on networks you do not own or have explicit authorization to analyze.**
 
----
 
 ## 2. System Design
 - Built in **Python** using the **Scapy** library.
@@ -16,7 +15,6 @@ Paxxel is a Python-based packet sniffing and network analysis tool built using *
 - Uses external APIs to retrieve metadata about IP addresses (ipinfo.io) and MAC vendors (macvendors.com).
 - Runs as a simple **command-line tool**.
 
----
 
 ## 3. Software Architecture
 
@@ -29,7 +27,6 @@ Paxxel is a Python-based packet sniffing and network analysis tool built using *
 
 Captured data can be printed to the console or written to a log file.
 
----
 
 ### TCP Reset Tool
 Allows the user to craft and send a **TCP Reset (RST)** packet using Scapy.
@@ -44,7 +41,6 @@ Inputs required:
 
 This tool demonstrates how TCP connections can be forcefully terminated by injecting crafted packets.
 
----
 
 ### IP Intelligence Lookup
 Uses the **ipinfo.io API** to retrieve metadata about an IP address.
@@ -60,14 +56,12 @@ Information returned may include:
 
 Requires a **free** API token from **ipinfo.io**.
 
----
 
 ### MAC Vendor Lookup
 Uses the **macvendors.com API** to identify the manufacturer associated with a MAC address.
 
 Example output: `Vendor: Apple, Inc.`
 
----
 
 ## 4. Output Format
 
@@ -100,14 +94,10 @@ DNS Layer:
 
 If enabled, this data is also sent to: `Packets.txt`
 
----
 
 ## 5. Usage Workflow
 
-Run the program:
-
-python paxxel.py
-
+Run the program: `python paxxel.py`
 
 ### Main Menu
 1 - Pick a tool  
@@ -122,7 +112,6 @@ python paxxel.py
 1 - IP Address Information  
 2 - MAC Address Vendor Lookup
 
----
 
 ## 6. Dependencies
 
@@ -135,7 +124,6 @@ Install with: `pip install scapy requests`
 
 Scapy may require **administrator/root privileges** depending on your operating system because it accesses raw network packets.
 
----
 
 ## 7. Challenges and Design Choices
 
@@ -143,7 +131,6 @@ Scapy may require **administrator/root privileges** depending on your operating 
 
 - **Handling Different Packet Structures:** Not every captured packet contains the same protocol layers, so the program has to check whether a layer exists before trying to access its fields. This required structuring the packet output logic so it only prints information for protocols that are actually present.
 
----
 
 ## 8. Ethics & Legal Use
 
