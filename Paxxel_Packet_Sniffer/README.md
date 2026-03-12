@@ -5,7 +5,7 @@
 ## 1. Overview
 Paxxel is a Python-based packet sniffing and network analysis tool built using **Scapy**. It captures packets on the local network and prints relevant information such as Ethernet headers, IP addresses, transport layer details, and DNS queries. Paxxel also has utilities for IP info lookup, MAC vendor lookup, and sending TCP reset packets.
 
-- **Disclaimer:** For educational and research use only. Packet sniffing and traffic manipulation on networks without permission may be illegal. **Do not use this tool on networks you do not own or have explicit authorization to analyze.**
+**Disclaimer:** For educational and research use only. Packet sniffing and traffic manipulation on networks without permission may be illegal. **Do not use this tool on networks you do not own or have explicit authorization to analyze.**
 
 ---
 
@@ -110,16 +110,16 @@ python paxxel.py
 
 
 ### Main Menu
-1 - Pick a tool
-2 - Analyze something
+1 - Pick a tool  
+2 - Analyze something  
 3 - Quit
 
 ### Tools
-1 - Packet Sniffer
+1 - Packet Sniffer  
 2 - TCP Reset
 
 ### Analysis Tools
-1 - IP Address Information
+1 - IP Address Information  
 2 - MAC Address Vendor Lookup
 
 ---
