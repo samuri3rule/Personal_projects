@@ -36,6 +36,3 @@ An ESP32 project that creates a Wi-Fi access point with a captive portal login p
 - Do not use to track or deanonymize individuals.
 - Always inform users and obtain consent before testing in a lab or controlled environment.
 - **DO NOT USE IN PUBLIC**
-
-## 10. Demo / Gallery (Optional)
-- PHOTOS TO BE ADDED
