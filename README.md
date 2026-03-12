@@ -12,8 +12,9 @@ This repository contains my personal projects across multiple domains:
 Each project has its **own folder** and a dedicated README explaining its purpose, design, and usage.
 
 ## Repository Structure
-- `WIFI_Probe_Sniffer/` – Contains code and README for my Wi-Fi probe sniffer project.
+- `Paxxel_Packet_Sniffer/` - Contains code and README for my Packet Sniffer.
 - `WIFI_Pineapple/` – Contains code and README for my Wi-Fi pineapple project.
+- `WIFI_Probe_Sniffer/` – Contains code and README for my Wi-Fi probe sniffer project.
 - `README.md` – This main repository overview (This Document).
 
 ## How to Use This Repo
