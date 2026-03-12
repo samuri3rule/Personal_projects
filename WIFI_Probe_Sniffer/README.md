@@ -32,6 +32,3 @@ An ESP32 project that listens to nearby Wi-Fi traffic for 802.11 probe request f
 - Captures only **broadcast probe frames**, not personal communications.
 - Do not use to track or deanonymize individuals.
 - Always verify local regulations before operating in public areas. This project is intended for controlled lab or demo environments.
-
-## 10. Demo / Gallery (Optional)
-- PHOTOS TO BE ADDED
