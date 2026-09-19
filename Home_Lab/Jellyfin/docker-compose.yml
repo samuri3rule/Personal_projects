@@ -1,0 +1,17 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    user: "1000:1000"
+
+    network_mode: "host"
+
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - /path/to/media:/media
+
+    restart: unless-stopped
+
+    environment:
+      -  JELLYFIN_PublishedServerUrl=http://<YOUR_SERVER_IP>:8096
